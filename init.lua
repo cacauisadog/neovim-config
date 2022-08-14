@@ -18,4 +18,4 @@ require("caue/project")
 require("caue/indentline")
 require("caue/alpha")
 require("caue/whichkey")
-
+require("caue/session-manager")

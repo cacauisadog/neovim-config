@@ -61,6 +61,8 @@ return packer.startup(function(use)
     use "goolord/alpha-nvim"  -- Launcher menu
     use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
     use "folke/which-key.nvim"  -- Shows possible next key presses for shortcuts
+    use "Shatur/neovim-session-manager"  -- Session manager
+    use "nvim-telescope/telescope-ui-select.nvim"  -- Change the default ui.select to telescope
 
     -- colorschemes
     use 'folke/tokyonight.nvim'
