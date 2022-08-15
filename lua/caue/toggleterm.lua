@@ -44,3 +44,38 @@ local lazygit = Terminal:new({ cmd = "lazygit", hidden = true, direction = "floa
 function _LAZYGIT_TOGGLE()
     lazygit:toggle()
 end
+
+local django = Terminal:new({ dir = "/Users/cacauisadog/Buser/code/buser_django", cmd = "./manage.py runserver", hidden = false, direction = "vertical", count = 11})
+function _DJANGO_TOGGLE()
+    django:toggle()
+end
+
+local bfp = Terminal:new({ dir = "/Users/cacauisadog/Buser/code/buser_django/front", cmd = "fnm use && npm run dev:disable-mock", hidden = true, direction = "vertical", count = 12 })
+function _BFP_TOGGLE()
+    bfp:toggle()
+end
+
+local bfm = Terminal:new({ dir = "/Users/cacauisadog/Buser/code/buser_django/front", cmd = "fnm use && npm run dev", hidden = true, direction = "vertical", count = 13 })
+function _BFM_TOGGLE()
+    bfm:toggle()
+end
+
+local bcp = Terminal:new({ dir = "/Users/cacauisadog/Buser/code/staff_bx_temporario", cmd = "fnm use && PORT=3007 API_MOCK=0 npm run dev", hidden = true, direction = "vertical", count = 14 })
+function _BCP_TOGGLE()
+    bcp:toggle()
+end
+
+local bcm = Terminal:new({ dir = "/Users/cacauisadog/Buser/code/staff_bx_temporario", cmd = "fnm use && PORT=4007 npm run dev", hidden = true, direction = "vertical", count = 15 })
+function _BCM_TOGGLE()
+    bcm:toggle()
+end
+
+local bsp = Terminal:new({ dir = "/Users/cacauisadog/Buser/code/buser_staff/staff", cmd = "fnm use && PORT=3003 API_MOCK=0 npm run dev", hidden = true, direction = "vertical", count = 16 })
+function _BSP_TOGGLE()
+    bsp:toggle()
+end
+
+local bsm = Terminal:new({ dir = "/Users/cacauisadog/Buser/code/buser_staff/staff", cmd = "fnm use && PORT=4003 npm run dev", hidden = true, direction = "vertical", count = 17 })
+function _BSM_TOGGLE()
+    bsm:toggle()
+end

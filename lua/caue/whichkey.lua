@@ -178,6 +178,26 @@ local mappings = {
         h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
         v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
     },
+
+    B = {
+        name = "Buser",
+        d = { "<cmd>lua _DJANGO_TOGGLE()<cr>", "Django" },
+        f = {
+            name = "Front",
+            p = { "<cmd>lua _BFP_TOGGLE()<cr>", "Prod" },
+            m = { "<cmd>lua _BFM_TOGGLE()<cr>", "Mock" },
+        },
+        c = {
+            name = "Clone",
+            p = { "<cmd>lua _BCP_TOGGLE()<cr>", "Prod" },
+            m = { "<cmd>lua _BCM_TOGGLE()<cr>", "Mock" },
+        },
+        s = {
+            name = "Staff",
+            p = { "<cmd>lua _BSP_TOGGLE()<cr>", "Prod" },
+            m = { "<cmd>lua _BSM_TOGGLE()<cr>", "Mock" },
+        },
+    },
 }
 
 which_key.setup(setup)
