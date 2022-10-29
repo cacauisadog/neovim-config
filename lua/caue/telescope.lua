@@ -25,6 +25,7 @@ telescope.setup {
         ["<C-k>"] = actions.move_selection_previous,
 
         ["<C-c>"] = actions.close,
+        ["<C-b>"] = actions.delete_buffer,
 
         ["<Down>"] = actions.move_selection_next,
         ["<Up>"] = actions.move_selection_previous,
@@ -78,6 +79,7 @@ telescope.setup {
         ["<PageDown>"] = actions.results_scrolling_down,
 
         ["?"] = actions.which_key,
+        ["<C-b>"] = actions.delete_buffer,
       },
     },
   },
