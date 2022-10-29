@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/Users/cacauisadog/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/gruvbox-community/gruvbox"
   },
+  harpoon = {
+    loaded = true,
+    path = "/Users/cacauisadog/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["impatient.nvim"] = {
     loaded = true,
     path = "/Users/cacauisadog/.local/share/nvim/site/pack/packer/start/impatient.nvim",

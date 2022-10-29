@@ -88,7 +88,7 @@ local mappings = {
     ["w"] = { "<cmd>w!<CR>", "Save" },
     ["q"] = { "<cmd>q!<CR>", "Quit" },
     ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
-    ["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
+    ["h"] = { "<cmd>Telescope harpoon marks<CR>", "Harpoon Marks" },
     ["<space>"] = {
         "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
         "Find files",
@@ -96,6 +96,7 @@ local mappings = {
     ["f"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
     ["F"] = { "<cmd>Telescope live_grep theme=ivy grep_open_files=true<cr>", "Find Text In Currently Open Files" },
     ["p"] = { "<cmd>Telescope projects<cr>", "Projects" },
+    ["m"] = { "<cmd>lua require('harpoon.mark').add_file()<CR>", "Mark with Harpoon"},
 
     P = {
         name = "Packer",
