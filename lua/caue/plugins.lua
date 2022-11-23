@@ -64,6 +64,7 @@ return packer.startup(function(use)
     use "Shatur/neovim-session-manager"  -- Session manager
     use "nvim-telescope/telescope-ui-select.nvim"  -- Change the default ui.select to telescope
     use "ThePrimeagen/harpoon"  --  Better mark system to switch between files
+    use "karb94/neoscroll.nvim" -- Smooth scrolling
 
     -- colorschemes
     use 'folke/tokyonight.nvim'
