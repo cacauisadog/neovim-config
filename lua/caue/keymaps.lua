@@ -44,6 +44,9 @@ keymap("n", "<CR>", ":nohl<CR>", opts)
 -- Close current buffer
 keymap("n", "<S-q>", "<cmd>Bdelete<CR>", opts)
 
+-- Paste from register 0 by default
+keymap("n", "p", '"0p<cr>', opts)
+
 -- Insert --
 -- Remap save to ctrl+s
 keymap("i", "<C-s>", "<ESC>:w<CR>", opts)
