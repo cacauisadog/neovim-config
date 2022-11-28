@@ -264,6 +264,11 @@ _G.packer_plugins = {
     path = "/Users/cacauisadog/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
+  ["telescope-live-grep-args.nvim"] = {
+    loaded = true,
+    path = "/Users/cacauisadog/.local/share/nvim/site/pack/packer/start/telescope-live-grep-args.nvim",
+    url = "https://github.com/nvim-telescope/telescope-live-grep-args.nvim"
+  },
   ["telescope-ui-select.nvim"] = {
     loaded = true,
     path = "/Users/cacauisadog/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
