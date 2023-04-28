@@ -47,6 +47,14 @@ keymap("n", "<S-q>", "<cmd>Bdelete<CR>", opts)
 -- Paste from register 0 by default
 keymap("n", "p", '"0p<cr>', opts)
 
+-- Center screen when jumping with Ctrl-d and Ctrl-u
+keymap("n", "<C-d>", "<C-d>zz", opts)
+keymap("n", "<C-u>", "<C-u>zz", opts)
+
+-- Center screen when jumping to searched words
+keymap("n", "n", "nzzzv", opts)
+keymap("n", "N", "Nzzzv", opts)
+
 -- Insert --
 -- Remap save to ctrl+s
 keymap("i", "<C-s>", "<ESC>:w<CR>", opts)
