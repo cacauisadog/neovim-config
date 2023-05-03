@@ -13,15 +13,15 @@ dashboard.section.header.val = {
     [[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
 }
 dashboard.section.buttons.val = {
-    dashboard.button("SPC", "  Find file", ":Telescope find_files <CR>"),
+    dashboard.button("SPC", "󰈞  Find file", ":Telescope find_files <CR>"),
     dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
     dashboard.button("p", "  Find project", ":Telescope projects <CR>"),
-    dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
+    dashboard.button("r", "󰮗  Recently used files", ":Telescope oldfiles <CR>"),
     dashboard.button("l", "  Open last session", ":SessionManager load_last_session<CR>"),
     dashboard.button("s", "  List sessions", ":SessionManager load_session<CR> "),
-    dashboard.button("f", "  Find text", ":Telescope live_grep <CR>"),
+    dashboard.button("f", "󰮗  Find text", ":Telescope live_grep <CR>"),
     dashboard.button("c", "  Configuration", ":e ~/.config/nvim/init.lua <CR>"),
-    dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
+    dashboard.button("q", "󰩈  Quit Neovim", ":qa<CR>"),
 }
 
 --[[ local function footer() ]]
