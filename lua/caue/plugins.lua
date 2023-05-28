@@ -65,6 +65,7 @@ return packer.startup(function(use)
     use "nvim-telescope/telescope-ui-select.nvim"  -- Change the default ui.select to telescope
     use "ThePrimeagen/harpoon"  --  Better mark system to switch between files
     use "karb94/neoscroll.nvim" -- Smooth scrolling
+    use "ggandor/leap.nvim" -- Jump between characters on screen
 
     -- colorschemes
     use 'folke/tokyonight.nvim'
