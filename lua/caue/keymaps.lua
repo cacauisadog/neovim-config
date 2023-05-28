@@ -55,6 +55,9 @@ keymap("n", "<C-u>", "<C-u>zz", opts)
 keymap("n", "n", "nzzzv", opts)
 keymap("n", "N", "Nzzzv", opts)
 
+-- Copy everything between { and }, including the brackets
+keymap("n", "YY", "va{Vy", opts)
+
 -- Insert --
 -- Remap save to ctrl+s
 keymap("i", "<C-s>", "<ESC>:w<CR>", opts)
